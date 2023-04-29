@@ -59,7 +59,7 @@ function init() {
   // material.shininess = 100;
   // material.specular = new THREE.Color("red"); //反射光の色
 
-  //明かりを追加
+  //光源を追加
 
   const ambientLight = new THREE.AmbientLight(0xffffff, 0.3); //方向を持たない光,全体を照らす光,影がつかない
   scene.add(ambientLight);
